@@ -73,7 +73,7 @@ body {
 #Infant:hover,#Toddler:hover,#Preschool:hover{
    border: 2px solid black;
 }
-#collapsable-nav li,.welcome,.login{
+#collapsable-nav li,.welcome,.login, .about-title, .about {
   text-align-last: center;
 }
 .login{
@@ -140,7 +140,7 @@ body {
   right: 0;
   width: 100%;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1em;
   text-transform: uppercase;
   background-color: #0000;
   color: #fff;
@@ -149,3 +149,13 @@ body {
 .navbar-collapse a:focus {
     display: block;
 }
+
+.about{
+  margin: 50px;
+  padding:20px;
+  border:2px solid black;
+  width:90%;
+  min-height: 300px;
+  text-align-last: justify;
+}
+
