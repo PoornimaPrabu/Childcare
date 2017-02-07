@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #B290D4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A9D490;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo_sm.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 15px 15px 10px 10px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Childcare name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.login-title, h2{
+  text-align-last: center;
+}
+
+
+.infant-title,.Toddler-title,.Preschool-title{
+  text-align-last: center;
+}
+#Infant,#Toddler,#Preschool{
+  border: 1px solid black;
+  background-color: gray;
+  width: auto;
+  height: 1000px;
+  margin-right: 1%;
+  margin-left: auto;
+  margin-top:5px;
+  font-family: Helvetica;
+  font-size:15px;
+  position: relative;
+  color: white;
+  padding:1%;
+}
+#Infant:hover,#Toddler:hover,#Preschool:hover{
+   border: 2px solid black;
+}
+#collapsable-nav li,.welcome,.login{
+  text-align-last: center;
+}
+.login{
+  color:black;
+  padding:10px;
+  margin:20px;
+}
+.login .button{
+    margin:20px;
+    border-radius: 10px;
+    background: #90C3D4;
+    background-position: center;
+    padding: 20px; 
+    width: 100px;
+    height: 50px; 
+    text-transform: uppercase;
+    text-align-last: left;
+
+  }
+.login .text{
+
+   margin:20px;
+   border-radius: 10px;
+}
+
+ .panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+#infant-tile, #toddler-tile, #preschool-tile,#toys-tile {
+  height: 250px;
+  width:100%;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+  position: relative;
+  overflow: hidden;
+}
+#infant-tile:hover, #toddler-tile:hover, #preschool-tile:hover, #toys-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#infant-tile {
+  background: url('../images/infant.jpg') no-repeat;
+  background-position: center;
+}
+#toddler-tile {
+  background: url('../images/toddler.jpg') no-repeat;
+  background-position: center;
+}
+#preschool-tile {
+  background: url('../images/preschool.jpg') no-repeat;
+  background-position: center;
+}
+#toys-tile {
+  background: url('../images/toys.jpg') no-repeat;
+  background-position: center;
+}
+#infant-tile span, #toddler-tile span, #preschool-tile  span,  #toys-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #0000;
+  color: #fff;
+  opacity: .8;
+}
+.navbar-collapse a:focus {
+    display: block;
+}
