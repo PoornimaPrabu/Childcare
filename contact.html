@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MODULE 3 ASSIGNMENT</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Little Buds' Childcare</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
@@ -19,9 +19,9 @@
             <div id="logo-img"></div>
           </a>
           <div class="navbar-brand">
-            <a href="index.html"><h1>Childcare, Edu</h1></a>
+            <a href="index.html"><h1>Little Buds' Childcare</h1></a>
          </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -29,7 +29,7 @@
           </button>
         </div>
 
-             <div id="collapsable-nav" class="collapse navbar-collapse">
+        <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li class="visible-xs active">
               <a href="index.html">
@@ -44,10 +44,10 @@
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
             <li>
-              <a href="gallery.html">
+              <a href="gallery.html" target="_blank">
                 <span class="glyphicon glyphicon-camera"></span><br class="hidden-xs"> Gallery</a>
             </li>
-            <li id="phone" class="visible-xs active">
+            <li id="phone" >
               <a href="contact.html">
                 <span class="glyphicon glyphicon-earphone"></span><br class="hidden-xs"> Contact</a>
             </li>
@@ -56,5 +56,57 @@
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header> <!--header ends here-->
+  <div class="contact_wrapper">
+  <div id="contact-pg" class="row">
+  <div class="col-lg-8" >
+  <form id="contact-form" class="styled-form" action="" method="post" accept-charset="utf-8">
+    <div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="8ece95d139633656ad0371bf53c45b2d" /></div>    
+    <h1 class="contact-title">Contact us</h1>
+    
+    <div class="note">
+      <p>We are here to answer any questions you may have about our Childcare. Reach out to us and we'll respond as soon as we can.</p>
+    </div>
+    
+    <p class="row-half-first">
+      <label for="id_name">Name: <span class="required">*</span></label>
+      <span class="field"><input type="text" name="name" id="id_name" /></span>
+    </p>
+    <p class="row-half">
+      <label for="id_email">Email: <span class="required">*</span></label>
+      <span class="field"><input type="text" name="email" id="id_email" /></span>
+    </p>
+    <p class="row">
+      <label for="id_message">Message: <span class="required">*</span></label>
+      <span class="field"><textarea cols="40" rows="5" name="message" id="id_message"></textarea></span>
+    </p>
+    <p class="submit-row">
+      <button type="submit">SEND</button>
+    </p>
+  </form>
+  </div>
+  <div class="col-lg-4">
+  <aside id="contact-info">
+    <dl>
+      <dt>Email</dt>
+      <dd><a href="mailto:poornioct@gmail.com" title="Click to send us an email">poornioct@gmail.com</a></dd>
+      <dt>Telephone</dt>
+      <dd><a href="tel:0014164589485" title="Click to call us">+1 416 458 9485</a></dd>
+      <dt>Address</dt>
+      <dd>
+        <address>
+          Little Buds' Childcare<br />
+          25 Canyon Avenue<br />
+          Toronto<br />
+          M3H 4Y1<br />
+          ON, Canada<br /><br />
+          Company No. +1 647 556 0604
+        </address>
+      </dd>
+    
+    </dl>
+  </aside>
+  </div>
+</div>
+</div>
   </body>
   </html>
